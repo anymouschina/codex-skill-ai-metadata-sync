@@ -1,0 +1,10 @@
+{
+  "name": "codex-skill-ai-metadata-sync",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "codex-skill-ai-metadata-sync": "./bin/install.mjs"
+  }
+}
+
