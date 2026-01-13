@@ -20,3 +20,10 @@ node ./bin/install.mjs
 
 这个仓库后续可能会加入其他 Skill；届时会在 `skill/` 下按目录拆分，并在这里补充对应说明。
 
+## 发布到 npm（自动化）
+
+本仓库已包含 GitHub Actions：当推送 tag（例如 `v0.1.1`）时自动执行 `npm publish`。
+
+需要在 GitHub 仓库 `Settings → Secrets and variables → Actions` 中添加：
+
+- `NPM_TOKEN`：具备发布权限的 npm token
